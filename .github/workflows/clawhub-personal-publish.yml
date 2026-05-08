@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   publish:
-    uses: openclaw/clawhub/.github/workflows/package-publish.yml@pe/clawhub-publish-visibility-fixes
+    uses: openclaw/clawhub/.github/workflows/package-publish.yml@main
     with:
       dry_run: false
       owner: patrick-erichsen-2
