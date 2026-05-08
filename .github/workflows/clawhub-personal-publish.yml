@@ -22,6 +22,5 @@ jobs:
       owner: Patrick-Erichsen
       ref: ${{ github.sha }}
       source_ref: ${{ github.ref }}
-      version: 0.2.5-personal.${{ github.run_number }}
     secrets:
       clawhub_token: ${{ secrets.CLAWHUB_TOKEN }}
